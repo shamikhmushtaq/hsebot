@@ -1,0 +1,25 @@
+# Web framework
+Flask==3.1.2
+
+# NLP and embeddings
+sentence-transformers==5.1.1
+
+# Vector search
+faiss-cpu==1.12.0
+
+# PDF text extraction
+PyPDF2==3.0.1
+
+# Math / scientific
+numpy==2.3.1
+
+# GROQ / OpenAI-compatible API
+openai==2.5.0
+
+# Environment variables (optional but useful)
+python-dotenv==1.0.1
+
+# Backend utilities (used indirectly by sentence-transformers)
+torch>=2.0.0
+transformers>=4.40.0
+scikit-learn>=1.2.0
