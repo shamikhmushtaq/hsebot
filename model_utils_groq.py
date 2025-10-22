@@ -38,7 +38,7 @@ except Exception as e:
 def generate_with_groq(prompt: str):
     """GROQ ONLY - FAST AS FUCK FOR HSE"""
     try:
-        key = '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'
+        key = os.environ.get('groq_api')
         if not key:
             return "SET GROQ_API_KEY YOU DUMBASS!"
 
